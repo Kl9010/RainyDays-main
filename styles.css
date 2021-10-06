@@ -1,0 +1,142 @@
+.rainydays_logo {
+  max-width: 300px;
+  float: center;
+  margin-right: 15;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 32;
+  font-weight: lighter;
+  color: #0a3641;
+}
+
+.men-shop {
+  max-width: 550px;
+  float: left;
+  margin-right: 15;
+}
+
+.woman-shop {
+  max-width: 550px;
+  float: right;
+  margin-right: 15;
+}
+
+.juniors-shop {
+  max-width: 550px;
+  margin-right: 15;
+}
+
+header,
+footer {
+  background-color: #0a3641;
+  color: #ffffff;
+  height: 60px;
+}
+
+.welcome {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.navigation {
+  background-color: #0a3641;
+  color: #ffffff;
+  text-align: center;
+  height: 60px;
+}
+
+.navi {
+  background-color: #0a3641;
+  color: #ffffff;
+}
+
+.cta-men,
+.cta-women,
+.cta-kids {
+  font-family: Calisto MT;
+  font-size: 14;
+  font-weight: bold;
+}
+
+.cta-men {
+  background-color: #ffffff;
+  color: #262621;
+}
+
+.cta-women {
+  background-color: #ffffff;
+  color: #262621;
+}
+
+.cta-kids {
+  background-color: #ffffff;
+  color: #262621;
+}
+
+/* Home page */
+
+.welcome-men {
+  background-image: url("images/Rain22.jpg");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+}
+
+.welcome-women {
+  background-image: url("images/Rain 7.jpg");
+  background-size: 600px;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+}
+
+.welcome-kids {
+  background-image: url("images/Rain1.jpg");
+  background-size: 450px;
+  background-repeat: no-repeat;
+  min-height: 70vh;
+}
+
+.header {
+  position: relative;
+}
+
+.home-logo {
+  position: relative;
+  top: 10px;
+  float: left;
+  left: 5px;
+}
+
+.right-logo {
+  position: relative;
+  top: 10px;
+  float: right;
+  right: 5px;
+}
+
+.person-logo {
+  position: relative;
+  right: 15px;
+}
+
+.search-logo {
+  position: relative;
+  right: 30px;
+}
+
+textarea {
+  position: relative;
+  height: 15px;
+  right: 60px;
+  bottom: 8px;
+  border-radius: 50px;
+}
