@@ -50,6 +50,7 @@ footer {
 
 footer {
   text-align: center;
+  font-weight: bold;
 }
 
 h1 {
@@ -94,17 +95,18 @@ nav a {
   padding: 10px 15px;
   border-radius: 5px;
   position: relative;
-  top: 500px;
+  top: 800px;
 }
 
 /* Home page */
 
 .home-image {
-  max-width: 600px;
+  max-width: 1000px;
+  max-height: 1500px;
 }
 
 .home-image-w {
-  max-width: 1220px;
+  max-width: 2010px;
 }
 
 .home-section {
@@ -159,4 +161,20 @@ textarea {
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+@media screen (max-width: 768px) {
+  .home-section {
+    display: block;
+  }
+  .cta {
+    top: 300px;
+  }
+  .home-image,
+  .home-image-w {
+    width: 100%;
+  }
+  .cta.w {
+    top: 150px;
+  }
 }
