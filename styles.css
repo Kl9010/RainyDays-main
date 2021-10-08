@@ -11,6 +11,11 @@ h1 {
   color: #0a3641;
 }
 
+footer {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 32;
+}
+
 .men-shop {
   max-width: 550px;
   float: left;
@@ -49,13 +54,30 @@ h1 {
 
 .navigation {
   background-color: #0a3641;
-  color: #ffffff;
-  text-align: center;
   height: 60px;
 }
 
-.navi {
-  background-color: #0a3641;
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 250px;
+  margin: auto;
+}
+
+nav a {
+  padding: 20px;
+}
+
+.nav-men {
+  color: #ffffff;
+}
+
+.nav-women {
+  color: #ffffff;
+}
+
+.nav-kid {
   color: #ffffff;
 }
 
@@ -70,39 +92,57 @@ h1 {
 .cta-men {
   background-color: #ffffff;
   color: #262621;
+  padding: 10px 15px;
+  border-radius: 5px;
+  position: absolute;
+  top: 600px;
+  left: 250px;
 }
 
 .cta-women {
   background-color: #ffffff;
   color: #262621;
+  padding: 10px 15px;
+  border-radius: 5px;
+  position: absolute;
+  top: 300px;
+  left: 210px;
 }
 
 .cta-kids {
   background-color: #ffffff;
   color: #262621;
+  padding: 10px 15px;
+  border-radius: 5px;
+  position: absolute;
+  top: 600px;
+  left: 220px;
 }
 
 /* Home page */
 
 .welcome-men {
   background-image: url("images/Rain22.jpg");
-  background-size: 600px;
+  background-size: 500px;
   background-repeat: no-repeat;
-  min-height: 70vh;
+  min-height: 60vh;
+  position: relative;
 }
 
 .welcome-women {
-  background-image: url("images/Rain 7.jpg");
-  background-size: 600px;
+  background-image: url("images/Rain2.jpg");
+  background-size: 1180px;
   background-repeat: no-repeat;
-  min-height: 70vh;
+  min-height: 60vh;
+  position: relative;
 }
 
 .welcome-kids {
   background-image: url("images/Rain1.jpg");
-  background-size: 450px;
+  background-size: 500px;
   background-repeat: no-repeat;
-  min-height: 70vh;
+  min-height: 60vh;
+  position: relative;
 }
 
 .header {
