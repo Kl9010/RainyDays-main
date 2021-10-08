@@ -40,8 +40,15 @@ footer {
 header,
 footer {
   background-color: #0a3641;
-  color: #ffffff;
   height: 60px;
+}
+
+.footer-copyright {
+  color: #ffffff;
+}
+
+.about {
+  color: #ffffff;
 }
 
 .welcome {
