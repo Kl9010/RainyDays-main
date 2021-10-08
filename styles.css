@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .rainydays_logo {
   max-width: 300px;
   float: center;
@@ -81,68 +85,35 @@ nav a {
   color: #ffffff;
 }
 
-.cta-men,
-.cta-women,
-.cta-kids {
+.cta {
   font-family: Calisto MT;
   font-size: 14;
   font-weight: bold;
-}
-
-.cta-men {
   background-color: #ffffff;
   color: #262621;
   padding: 10px 15px;
   border-radius: 5px;
-  position: absolute;
-  top: 600px;
-  left: 250px;
-}
-
-.cta-women {
-  background-color: #ffffff;
-  color: #262621;
-  padding: 10px 15px;
-  border-radius: 5px;
-  position: absolute;
-  top: 300px;
-  left: 210px;
-}
-
-.cta-kids {
-  background-color: #ffffff;
-  color: #262621;
-  padding: 10px 15px;
-  border-radius: 5px;
-  position: absolute;
-  top: 600px;
-  left: 220px;
+  position: relative;
+  top: 500px;
 }
 
 /* Home page */
 
-.welcome-men {
-  background-image: url("images/Rain22.jpg");
-  background-size: 500px;
-  background-repeat: no-repeat;
-  min-height: 60vh;
-  position: relative;
+.home-image {
+  max-width: 600px;
 }
 
-.welcome-women {
-  background-image: url("images/Rain2.jpg");
-  background-size: 1180px;
-  background-repeat: no-repeat;
-  min-height: 60vh;
-  position: relative;
+.home-image-w {
+  max-width: 1220px;
 }
 
-.welcome-kids {
-  background-image: url("images/Rain1.jpg");
-  background-size: 500px;
-  background-repeat: no-repeat;
-  min-height: 60vh;
-  position: relative;
+.home-section {
+  display: flex;
+  justify-content: center;
+}
+
+.home-section div:last-of-type {
+  margin: 0;
 }
 
 .header {
@@ -179,4 +150,13 @@ textarea {
   right: 60px;
   bottom: 8px;
   border-radius: 50px;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
