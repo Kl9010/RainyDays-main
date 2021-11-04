@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+}
+
+.rainydays_logo {
+  max-width: 300px;
+  float: center;
+  margin-right: 15;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: lighter;
+  color: #0a3641;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 32;
+}
+
+.extra-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.extra-info__item {
+  flex: 1;
+}
+
+.men-shop {
+  max-width: 550px;
+  float: left;
+  margin-right: 15;
+}
+
+.woman-shop {
+  max-width: 550px;
+  float: right;
+  margin-right: 15;
+}
+
+.juniors-shop {
+  max-width: 550px;
+  margin-right: 15;
+}
+
+header,
+footer {
+  background-color: #0a3641;
+  height: 60px;
+}
+
+.footer-copyright {
+  color: #ffffff;
+}
+
+.about {
+  color: #ffffff;
+}
+
+.welcome {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+.navigation {
+  background-color: #0a3641;
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 250px;
+  margin: auto;
+}
+
+nav a {
+  padding: 20px;
+}
+
+.nav-men {
+  color: #ffffff;
+}
+
+.nav-women {
+  color: #ffffff;
+}
+
+.nav-kid {
+  color: #ffffff;
+}
+
+.home-logo {
+  position: relative;
+  top: 10px;
+  float: left;
+  left: 5px;
+}
+
+.contact {
+  position: relative;
+  top: 18px;
+  left: 25px;
+}
+
+.right-logo {
+  position: relative;
+  top: 10px;
+  float: right;
+  right: 5px;
+}
+
+.person-logo {
+  position: relative;
+  right: 15px;
+}
+
+.search-logo {
+  position: relative;
+  right: 30px;
+}
+
+textarea {
+  position: relative;
+  height: 15px;
+  right: 60px;
+  bottom: 8px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 400px) {
+  .extra-info {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  body {
+    padding: 0px;
+  }
+}
+
+/* Products */
+
+.product {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.product-overview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 20px;
+}
+
+.product img {
+  width: 100%;
+  grid-column: -1/1;
+}
+
+.jackets {
+  max-width: 1200px;
+  margin: auto;
+  color: #0a3641;
+}
+
+.discription {
+  text-align: center;
+  padding: 80px;
+}
+
+.product h2,
+.product p {
+  grid-column: 1;
+  font-size: 1em;
+  margin: 5px;
+}
+
+.cta {
+  background-color: #0a3641;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.nav-men {
+  color: #a1a621;
+}
+
+.cta:hover {
+  background-color: #a1a621;
+}
+
+@media (min-width: 400px) {
+  .product-overview {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 600px) {
+  .product-overview {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

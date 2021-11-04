@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+}
+
+.rainydays_logo {
+  max-width: 300px;
+  float: center;
+  margin-right: 15;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: lighter;
+  color: #0a3641;
+  display: flex;
+  justify-content: center;
+}
+
+.statement {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: lighter;
+  color: #0a3641;
+}
+
+main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+footer {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 32;
+}
+
+.foot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.extra-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.extra-info__item {
+  flex: 1;
+}
+
+.men-shop {
+  max-width: 550px;
+  float: left;
+  margin-right: 15;
+}
+
+.woman-shop {
+  max-width: 550px;
+  float: right;
+  margin-right: 15;
+}
+
+.juniors-shop {
+  max-width: 550px;
+  margin-right: 15;
+}
+
+header,
+footer {
+  background-color: #0a3641;
+  height: 60px;
+}
+
+.footer-copyright {
+  color: #ffffff;
+}
+
+.about {
+  color: #ffffff;
+}
+
+.welcome {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+.navigation {
+  background-color: #0a3641;
+  height: 60px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 250px;
+  margin: auto;
+}
+
+nav a {
+  padding: 20px;
+}
+
+.nav-men {
+  color: #ffffff;
+}
+
+.nav-women {
+  color: #ffffff;
+}
+
+.nav-kid {
+  color: #ffffff;
+}
+
+.home-logo {
+  position: relative;
+  top: 10px;
+  float: left;
+  left: 5px;
+}
+
+.contact {
+  position: relative;
+  top: 18px;
+  left: 25px;
+}
+
+.right-logo {
+  position: relative;
+  top: 10px;
+  float: right;
+  right: 5px;
+}
+
+.person-logo {
+  position: relative;
+  right: 15px;
+}
+
+.search-logo {
+  position: relative;
+  right: 30px;
+}
+
+textarea {
+  position: relative;
+  height: 15px;
+  right: 60px;
+  bottom: 8px;
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 400px) {
+  .extra-info {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  body {
+    padding: 0px;
+  }
+}
