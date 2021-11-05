@@ -27,12 +27,6 @@ footer {
   font-size: 32;
 }
 
-.foot {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
 .extra-info {
   display: flex;
   flex-direction: column;
